@@ -1,0 +1,20 @@
+DDL(data definition language) - datanin strukturunu mueyyenlesdirmek ucun istifade olunur.
+CREATE - databazada obyekt yaratmaq ucundur.
+ALTER - databazanin, cedvelin ve ya setirlerde deyisiklik etmek ucun istifade olunur.
+DROP - databazadaki obyektleri silmek ucundur.
+RENAME - obyektin adini deyisdirir.
+
+
+DCL(data transaction language) - databazadaki obyektler uzerindeki nezaretin seviyyesini idare edir.
+Meselen:
+Grant:istifadeciye obyektleri oxuma ve yazma imkani verir.
+Revoke:istifadecini oxuma ve ya yazma imkanindan qoruyur. 
+
+
+DML(data manipulation language) - datanin deyisdirmek, manipulyasiya etmek ucun istifade olunur. DML emrleri geri alinabiler, yeni istesek sonradan basqa emr vermekle datani deyise bilerik.
+INSERT - datani "doldurmaq" ucun istifade olunur.(insert into table-name values(data1,data2,...)
+UPDATE - cedvelin setrinde yenileme etmek ucun istifade olunur.(update table-name set column-name = value where condition;)
+DELETE - cedveli silmek ucun istifade olunur. Delete ile her hansi setri de sile bilerik.(delete from table-name; ve ya delete from table-name where row_id;)
+SELECT - datani databazadan qaytarmaq ucundur.(select column-name from table-name;)
+
+
